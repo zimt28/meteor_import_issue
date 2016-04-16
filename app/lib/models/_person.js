@@ -1,7 +1,7 @@
 import { Model } from '/app/lib/helpers/model';
 
 /* Importing from `index.js` file doesn't work. */
-/* Can be fixed by importing from './_address' */
+/* Can be fixed by importing from './_address' directly */
 import { Address } from './';
 
 const schema = {
